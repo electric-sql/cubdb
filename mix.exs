@@ -1,12 +1,12 @@
 defmodule CubDB.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/lucaong/cubdb"
+  @source_url "https://github.com/electric-sql/cubdb"
   @version "2.0.2"
 
   def project do
     [
-      app: :cubdb,
+      app: :electric_cubdb,
       version: @version,
       elixir: "~> 1.7",
       build_embedded: Mix.env() == :prod,
@@ -63,7 +63,7 @@ defmodule CubDB.Mixfile do
       maintainers: ["Luca Ongaro"],
       licenses: ["Apache-2.0"],
       links: %{
-        "Changelog" => "https://hexdocs.pm/cubdb/changelog.html",
+        "Changelog" => "https://hexdocs.pm/electric_cubdb/changelog.html",
         "GitHub" => @source_url
       }
     ]
